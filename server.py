@@ -7,7 +7,7 @@ import numpy as np
 import spacy
 
 app = Flask(__name__)
-app.secret_key = 'AIzaSyCkIx06XgxW4H7hKoZBFE2GHlEH_EZMXsU'  # Replace with your actual secret key
+app.secret_key = 'your_secret_key'  # Replace with your actual secret key
 
 # Allow CORS from your frontend
 CORS(app, resources={r"/api/*": {"origins": "http://localhost:3000"}})
